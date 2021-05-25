@@ -1,0 +1,17 @@
+@import url(/assets/css/components/conteudo/coluna_esquerda.css);
+@import url(/assets/css/components/conteudo/coluna_direita.css);
+@import url(/assets/css/components/conteudo/centro.css);
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 26% 54% 20%;
+    grid-template-rows: auto;
+    grid-row: 2;
+    
+
+    margin-top: 2rem;
+
+    justify-content: space-between;
+}
+
+

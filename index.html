@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Alura DEV</title>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/base/base.css">
+<link rel="stylesheet" href="./assets/css/components/cabecalho.css">
+<link rel="stylesheet" href="assets/css/components/conteudo/conteudo.css">
+
+</head>
+<!--Corpo do codigo dividido em grid
+Cabecalho uma celula completa com logo, barra e foto do user
+Corpo dividido em 3 colunas, menu esquerdo, centro menu direito-->
+<body class="app">
+    <header class="cabecalho">
+        <img src="./assets/img/logo/Logo.png" alt="logotipo alura dev" class="logo"/>
+        <div class="pesquisa">
+            <input type="text"  id="caixa" placeholder="Busque por algo">
+        </div>
+   
+        <div class="user">
+            <div class="user__imagem"></div>
+            <span class="user__nome">Harry</span>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <nav class="coluna_esquerda">
+            <span class="coluna_esquerda__titulo">
+                Menu
+            </span>
+            <a class="editor_codigo" href="#">
+                <img src="./assets/img/icons/editor_cod.svg" alt="maior barra menor" class="editor_codigo__imagem">
+                Editor de codigo
+            </a>
+
+            <a class="comunidade" href="#">
+                <img src="./assets/img/icons/comunidade.svg" alt="icone comunidade"class="comunidade__imagem">
+                Comunidade
+            </a>
+
+        </nav>
+
+        <section class="centro">
+            <div class="centro_caixa">
+                <textarea class="centro_campo-codigo" rows="5"  placeholder="Digite aqui o seu codigo"></textarea>
+            
+                <div class="centro_imagem__mac"></div>
+            </div>
+           
+            <button type="button" id="centro_botao_highlight">Visualizar com o highlight</button>
+        </section>
+
+        <section class="coluna_direita">
+            <form class="coluna_direita__form">
+                <label for="coluna_direita__seu_projeto">
+                    Seu Projeto
+                    <input type="text" id="coluna_direita__seu_projeto" placeholder="Nome do seu projeto">
+                </label>
+         
+                <label for="coluna_direita__descricao"></label>
+                <input id="coluna_direita__descricao" placeholder="Descrição do seu projeto">
+
+                <p>Personalização</p>
+                <select name="" id="coluna_direita__select" >
+                    <option>Javascript</option>
+                    <option>CSS</option>
+                    <option>Html</option>
+                </select>
+
+                <input type="color" class="coluna_direita__colorpick" value="#6BD1FF">
+                    
+
+                <button type="submit" class="coluna_direita__salvar-projeto">
+                    <a href="#">
+                    Salvar Projeto
+                    </button>
+                    </a>
+
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

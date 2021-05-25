@@ -1,0 +1,52 @@
+*projeto 100% responsivo
+*framework highlight js?
+
+
+começar com cabeçalho
+	*logo
+	*busca
+	*foto da pessoa
+	*menuzinho
+	
+	
+///// cores
+azulcem #96b9fd
+
+azulduzentos #7ba4fc
+
+azultrezentos #5081fb
+
+azulescuro #051d3b
+
+////fonte
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+
+cor #666666
+
+
+
+Matheus — Hoje às 20:03
+Vamos lá, por partes
+[20:05]
+O display: flex dentro da .cabecalho vai trabalhar com a disposição de 3 elementos: <img>, <div class="pesquisa"> e <div class="user">
+[20:06]
+justify-content: space-between fala para que esses 3 elementos fiquem com espaçamento entre eles
+[20:07]
+align-items: center fala que esses 3 elementos precisam ficar alinhados verticalmente no centro do elemento <header>
+[20:07]
+Agora dentro de user
+[20:08]
+display: flex por padrão deixa os elementos filhos um do lado do outro, então usamos essa propriedade para evitar a quebra de linha
+[20:08]
+align-items: center é a mesma coisa do elemento <header>
+[20:10]
+O detalhe é que o display: flex atribui um tamanho para cada um dos elementos filhos caso eles não sejam declarados, então o user vai ocupar só o espaço necessário para ter os dois elementos dentro
+[20:10]
+Então existem duas soluções para o espaçamento entre a imagem de perfil e o nome
+[20:11]
+Ou usar o flex dando um width para o elemento user e aí dentro da .user usar justify-content: space-around (que é uma maneira meio inconsistente)
+
+1
+[20:12]
+Ou então simplesmente colocar um margin dentro dos elementos filhos para criar esse espaçamento

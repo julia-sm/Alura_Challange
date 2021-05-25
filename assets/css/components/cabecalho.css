@@ -1,0 +1,87 @@
+/*
+Cabeçalho que deve ficar em uma unica linha do GRID
+*/
+
+.cabecalho{
+    grid-area: cabecalho;
+    grid-column: 1/1;
+    grid-row:1 ;
+
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+   
+    /*margin: 1rem 2rem 1rem 2rem;*/
+    
+}
+/*LOGOTIPO*/
+.logo{
+    
+    width: 145px;
+    height: 34.05px;
+    left: 0px;
+    top: 12px;
+}
+/*BARRA DE PESQUISA*/
+.pesquisa{
+    display: flex;
+    
+    align-items: flex-start;
+    padding: 0px;
+    margin-right: 7rem;
+}
+
+#caixa{
+    border:none;
+
+    width: 47rem;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+
+    padding-left: 1rem;
+     
+    background:rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+
+    align-items: flex-start;
+}
+
+::placeholder{
+    color: var(--fonte-cor);
+}
+
+/*Simbolo de menu para mobile
+.menudireito{
+    background-color: var(--azulescuro);
+    border: none;
+}*/
+
+/*Imagem e nome do Usuario*/
+.user{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    
+}
+
+.user__imagem{
+    
+    height: 32px;
+    width: 32px;
+    background-image: url(../../img/icons/user/Photo.png);
+    margin-right: 1rem;
+   
+}
+
+.user__nome{  
+    
+    font-family: var(--fonte-corpo);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 1rem;
+    
+}

@@ -1,0 +1,43 @@
+
+/*Coluna esquerda com os links para a pagina editor codigo e comunidade*/
+.coluna_esquerda{
+    width: 13.75rem;
+    height: 13.75rem;
+    margin-top: 1rem;
+    
+    
+}
+.coluna_esquerda__titulo{
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.editor_codigo{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.editor_codigo__imagem{
+    padding-right: 1rem;
+}
+
+.editor_codigo:hover{
+    opacity: 56%;
+}
+
+.comunidade{
+    display: flex;
+    align-items: center;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.comunidade__imagem{
+    padding-right: 1rem;
+}
+
+.comunidade:hover{
+    opacity: 56%;
+}
