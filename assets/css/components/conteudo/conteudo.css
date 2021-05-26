@@ -4,7 +4,8 @@
 
 .conteudo{
     display: grid;
-    grid-template-columns: 26% 54% 20%;
+    grid-area: "coluna_esquerda","coluna_direita","centro";
+    grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: auto;
     grid-row: 2;
     
