@@ -10,18 +10,15 @@ Cabeçalho que deve ficar em uma unica linha do GRID
     display: flex;
     
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
    
     /*margin: 1rem 2rem 1rem 2rem;*/
     
 }
 /*LOGOTIPO*/
 .logo{
-    
-    width: 145px;
     height: 34.05px;
-    left: 0px;
-    top: 12px;
+    
 }
 /*BARRA DE PESQUISA*/
 .pesquisa{
@@ -88,7 +85,24 @@ Cabeçalho que deve ficar em uma unica linha do GRID
 
 /*DISPLAY TABLET*/
 @media screen and (max-width:768px){
-    
+    .cabecalho{
+        justify-content:  flex-start
+    };
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .user{
+        display: none;
+    }
+    .menu__mobile{
+        border: none;
+        background-image: url("../../img/icons/menu_direito.svg");
+    }
+}
 
-    
+@media screen and (min-width:1000px){
+    .menu__mobile{
+        display:none;
+    }
 }
