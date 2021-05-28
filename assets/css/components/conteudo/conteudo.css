@@ -5,9 +5,9 @@
 .conteudo{
     display: grid;
     grid-area: "coluna_esquerda","coluna_direita","centro";
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 16% 60% 24%;
     grid-template-rows: auto;
-    grid-row: 2;
+   
     
 
     margin-top: 2rem;

@@ -1,6 +1,8 @@
 
 /*Centro - Campo para escrever o codigo*/
-
+.centro{
+    padding:10px;
+}
 .centro_caixa{
     display: flex;
     flex-direction: column;
@@ -45,8 +47,9 @@
 .centro_imagem__mac{
     width: 52px;
     height: 12px;
-    left: 16px;
-    top: 16px;
+    
+
+    
 
     background: url("/assets/img/icons/mac_buttons.svg") no-repeat;
 }
