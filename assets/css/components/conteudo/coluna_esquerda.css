@@ -1,12 +1,8 @@
 
 /*Coluna esquerda com os links para a pagina editor codigo e comunidade*/
-@media screen and (min-width:768px){
-    .coluna_esquerda{
-        display: none;
-    }
-}
 
-@media screen and (min-width:980px){
+
+
 .coluna_esquerda{
     width: 300px;
     height: 300px;
@@ -51,4 +47,3 @@
     opacity: 56%;
 }
 
-}

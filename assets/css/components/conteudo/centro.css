@@ -1,7 +1,7 @@
 
 /*Centro - Campo para escrever o codigo*/
 .centro{
-    padding:10px;
+    padding-left:150px;
 }
 .centro_caixa{
     display: flex;
