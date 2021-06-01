@@ -1,0 +1,99 @@
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#caixa{
+
+    border:none;
+
+    width: 47rem;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+
+    padding-left: 1rem;
+        
+    background:rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+
+    align-items: flex-start;
+    
+}
+
+.logo{
+    padding:2rem;
+    align-items: flex-start;
+}
+
+/*Conteudo principal > menu lateral + editores*/
+.conteudo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*Coluna esquerda*/
+
+.coluna_esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.coluna_esquerda__titulo{
+    padding:10px;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+
+.editor_codigo{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.editor_codigo__imagem{
+    padding-right: 1rem;
+}
+
+.editor_codigo:hover{
+    opacity: 56%;
+}
+
+.comunidade{
+    display: flex;
+    align-items: center;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.comunidade__imagem{
+    padding-right: 1rem;
+}
+
+.comunidade:hover{
+    opacity: 56%;
+}
+
+/*estilização dos Editores*/
+.card1{
+   width: 50%;
+   height: 50%;
+}
+
+.card_colorida1{
+    border-radius: 8px;
+    background:#9AFF6B;
+}
+
+.card1__codigo{
+    background:var(--preto-editor);
+    resize: none;
+    color: var(--fonte-cor);
+
+}
