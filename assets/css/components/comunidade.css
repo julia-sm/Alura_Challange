@@ -31,9 +31,9 @@
 /*Conteudo principal > menu lateral + editores*/
 .conteudo{
     display: flex;
-    align-items: center;
+   
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 /*Coluna esquerda*/
 
