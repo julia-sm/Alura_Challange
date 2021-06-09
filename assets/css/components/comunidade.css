@@ -88,6 +88,10 @@
    flex-direction: column;
    justify-content: space-between;
    background: rgba(0, 0, 0, 0.16);
+   margin-bottom: 2%;
+}
+.card:nth-child(4n){
+    margin-left: 40%;
 }
 
 .card_colorida-1{
